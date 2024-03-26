@@ -1,6 +1,6 @@
 import { Card, Flex, Typography, Image } from "antd";
 import React from "react";
-import plant from "../assets/plant01.png";
+import plant from "../assets/plant02.png";
 
 export default function ContenxtSideBar() {
   return (
@@ -19,9 +19,9 @@ export default function ContenxtSideBar() {
           alt="plant"
           style={{
             position: "absolute",
-            bottom: -50,
-            left: 12,
-            height: "300px",
+            bottom: -30,
+            left: 150,
+            height: "250px",
             width: "auto",
           }}
         />

@@ -17,8 +17,8 @@ export default function ProductLists() {
       <Flex align="center" gap="large">
         {plantData.map((plant) => (
           <Card key={plant.id} hoverable className="plant-card">
-            <Image src={plant.picture} style={{ width: "130px" }} />
-            <Meta title={plant.name} style={{marginTop:'1rem'}}/>
+            <Image src={plant.picture} style={{ height: "130px" }} />
+            <Meta title={plant.name} style={{ marginTop: "1rem" }} />
           </Card>
         ))}
       </Flex>
